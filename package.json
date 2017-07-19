@@ -1,0 +1,20 @@
+{
+  "name": "puppy-game",
+  "version": "1.0.0",
+  "main": "dist/src/index.js",
+  "author": "Viljami Kuosmanen <viljami@avoinsorsa.fi>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^8.0.14",
+    "bluebird": "^3.5.0",
+    "typescript": "^2.4.1",
+    "web3": "^0.20.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --format prose --project ."
+  },
+  "devDependencies": {
+    "tslint": "^5.5.0"
+  }
+}
